@@ -42,8 +42,8 @@ body {
 }
 
 #headerwrap {
-	background: url(../img/hero.jpg) no-repeat center top;
-	padding-top: 180px;
+	background: url(../img/jersey-875040_1920.jpg) no-repeat center top;
+  padding-top: 180px;
 	text-align:center;
 	background-attachment: relative;
 	background-position: center center;
@@ -61,6 +61,16 @@ body {
     -o-background-size: cover;
     background-size: cover;
 }
+#headerwrap:before {
+ content: ' ';
+ background-color: rgba(0,0,0,.3);
+ position: absolute;
+ top: 0;
+ right: 0;
+ bottom: 0;
+ left: 0;
+}
+
 
 #headerwrap h1 {
 	font-weight: 100;
