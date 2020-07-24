@@ -10,13 +10,13 @@ body {
 }
 
 /* -------------------- wrapper -------------------- */
-#wrapper {
+/* #wrapper {
 	width: 100%;
 	margin: auto;
 	padding: 0px;
 	border: 0px;
 	background-color: #FFF;	
-}
+} */
 #layout {
     position: static;
 }
